@@ -7,7 +7,7 @@ Natural Exponential Function
 The natural [exponential function][exponential-function] is defined as
 
 <div class="equation" align="center" data-raw-text="y = e^x" data-equation="eq:natural_exponential_function">
-	<img src="" alt="Natural exponential function definition.">
+	<img src="https://cdn.rawgit.com/math-io/exp/1ecfe1ee0dc303c2ebb2b0471f0328106eb915cd/docs/img/eqn.svg" alt="Natural exponential function definition.">
 	<br>
 </div>
 
