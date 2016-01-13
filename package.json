@@ -51,6 +51,7 @@
     "url": "https://github.com/math-io/exp/issues"
   },
   "dependencies": {
+    "math-truncate": "^1.0.0",
     "validate.io-nan": "^1.0.3"
   },
   "devDependencies": {
