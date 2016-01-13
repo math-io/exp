@@ -10,6 +10,10 @@
     {
       "name": "Athan Reines",
       "email": "kgryte@gmail.com"
+    },
+    {
+      "name": "Philipp Burckhardt",
+      "email": "pburckhardt@outlook.com"
     }
   ],
   "scripts": {
@@ -46,7 +50,9 @@
   "bugs": {
     "url": "https://github.com/math-io/exp/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "validate.io-nan": "^1.0.3"
+  },
   "devDependencies": {
     "browserify": "12.x.x",
     "codecov": "1.x.x",
