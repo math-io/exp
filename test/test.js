@@ -40,6 +40,20 @@ test( 'the function returns `+infinity` if provided a `+infinity`', function tes
 	t.end();
 });
 
+test( 'the function returns `+infinity` for very large input values', function test( t ) {
+	var val = exp( 1e12 );
+	t.equal( val, Number.POSITIVE_INFINITY, 'returns +infinity' );
+	t.end();
+});
+
+test( 'the function returns 0 for large, negative input values', function test( t ) {
+	var val = exp( -1e12 );
+	t.equal( val, 0, 'returns zero' );
+	t.end();
+});
+
+
+
 test( 'the function returns `NaN` if provided a `NaN`', function test( t ) {
 	var val = exp( NaN );
 	t.ok( val !== val, 'returns NaN' );

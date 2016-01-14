@@ -10,6 +10,10 @@
     {
       "name": "Athan Reines",
       "email": "kgryte@gmail.com"
+    },
+    {
+      "name": "Philipp Burckhardt",
+      "email": "pburckhardt@outlook.com"
     }
   ],
   "scripts": {
@@ -46,10 +50,17 @@
   "bugs": {
     "url": "https://github.com/math-io/exp/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "compute-divide": "^2.0.0",
+    "compute-mean": "^3.0.0",
+    "math-truncate": "^1.0.0",
+    "validate.io-nan": "^1.0.3"
+  },
   "devDependencies": {
     "browserify": "12.x.x",
     "codecov": "1.x.x",
+    "compute-abs": "^3.0.0",
+    "compute-subtract": "^2.0.0",
     "istanbul": "^0.4.1",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
